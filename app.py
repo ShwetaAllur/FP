@@ -7,7 +7,7 @@ Created on Sun Sep 12 16:24:52 2021
 from flask import Flask, request, render_template
 from flask_cors import cross_origin
 import sklearn
-import pickle
+import pickle,gzip
 import pandas as pd
 
 
