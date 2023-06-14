@@ -14,7 +14,7 @@ import pandas as pd
 app = Flask(__name__)
 
 with gzip.open('test.pklz', 'rb') as ifp:
-    pickle.load(ifp))
+    pickle.load(ifp)
     [1, 2, 3]
 @app.route("/")
 @cross_origin()
